@@ -2,9 +2,9 @@
 
 import { useParams } from "react-router-dom";
 import { InfiniteMovingCards } from "./UI/MovingCards";
-import sibolImg from "../assets/sibol.png";
-import learnquake from "../assets/learnquake.png";
-import myxculture from "../assets/myxculture.png";
+import sibolImg from "../assets/SIBOL.png";
+import learnquake from "../assets/LearnQuake.png";
+import myxculture from "../assets/MyxCulture.png";
 
 const projects = [
   {
