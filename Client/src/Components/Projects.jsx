@@ -7,9 +7,9 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";
 import {  SiExpress, SiHubspot, SiLaravel, SiNextdotjs, SiPhp, SiShadcnui, SiTailwindcss, SiTypescript, SiBun } from "react-icons/si";
 import { IconBrandTypescript } from "@tabler/icons-react";
-import sibolImg from "../assets/sibol.png";
-import learnquake from "../assets/learnquake.png";
-import myxculture from "../assets/myxculture.png";
+import sibolImg from "../assets/SIBOL.png";
+import learnquake from "../assets/LearnQuake.png";
+import myxculture from "../assets/MyxCulture.png";
 
 const Projects = () => {
   const Projects = [
