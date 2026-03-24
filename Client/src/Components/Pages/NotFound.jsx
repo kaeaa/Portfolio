@@ -21,7 +21,7 @@ const NotFound = () => {
           className="text-[200px] font-bold tracking-tight sm:text-[350px] md:text-[400px] lg:text-[410px] text-center select-none pointer-events-none"
           style={{
             color: "black",
-            background: "linear-gradient(180deg, #2E8B57 30%, black 90%)",
+            background: "linear-gradient(180deg, #9333ea 30%, black 90%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             display: "inline-block",
@@ -43,7 +43,7 @@ const NotFound = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
             style={{
-              background: "linear-gradient(180deg, black 20%,  #2E8B57 80%)",
+              background: "linear-gradient(180deg, black 20%,  #9333ea 80%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               display: "inline-block",
@@ -77,7 +77,7 @@ const NotFound = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             animate={{ y: 0 }}
-            className="bg-gradient-to-br from-black to-[#2E8B57] text-white px-7 py-3 rounded-xl shadow-lg flex items-center gap-2 mx-auto cursor-pointer font-plus overflow-hidden"
+            className="bg-gradient-to-br from-black to-purple-700 text-white px-7 py-3 rounded-xl shadow-lg flex items-center gap-2 mx-auto cursor-pointer font-plus overflow-hidden"
           >
             <span><FiHome size={20}/></span>
             Go To HomePage

@@ -73,7 +73,7 @@ const Footer = () => {
             <a
               key={label}
               href={href}
-              className="text-sm font-medium text-gray-700 hover:text-[#2E8B57] transition-colors duration-150"
+              className="text-sm font-medium text-gray-700 hover:text-purple-600 transition-colors duration-150"
             >
               {label}
             </a>

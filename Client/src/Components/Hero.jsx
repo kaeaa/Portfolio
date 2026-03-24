@@ -177,7 +177,7 @@ const Hero = ({ setIsModalOpen }) => {
               style={{
                 animation: "pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite",
               }}
-              className="w-3 h-3 bg-[#2E8B57] rounded-full animate-pulse"
+              className="w-3 h-3 bg-purple-600 rounded-full animate-pulse"
             ></div>
             <span className="text-white text-[13px] font-medium font-outfit">
               Available for Hire

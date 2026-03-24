@@ -40,7 +40,7 @@ const Blog = () => {
                    whileInView={{ opacity: 1, y: 0 }}
                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
                    animate={{ y: 0 }}
-                   className="bg-gradient-to-br from-black to-[#2E8B57] text-white px-7 py-3 rounded-xl shadow-lg flex items-center gap-2 mx-auto cursor-pointer font-plus overflow-hidden"
+                   className="bg-gradient-to-br from-black to-purple-700 text-white px-7 py-3 rounded-xl shadow-lg flex items-center gap-2 mx-auto cursor-pointer font-plus overflow-hidden"
                  >
                    <span><FiHome size={20}/></span>
                    Back Home

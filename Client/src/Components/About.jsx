@@ -50,7 +50,7 @@ const About = () => {
           <div className="absolute translate-x-12 sm:translate-x-16 rotate-12 bg-white p-2 sm:p-3 rounded-lg shadow-xl transition-all duration-800 ease-in-out cursor-pointer group-hover:translate-x-20 sm:group-hover:translate-x-30 group-hover:rotate-6 ">
             <div className="w-[180px] sm:w-[200px] h-[180px] sm:h-[200px] bg-gray-200 overflow-hidden">
               <img
-                src="/profile.jpg"
+                src="/profile1.jpg"
                 alt="Krisha Mae Alcaide"
                 className="w-full h-full object-cover rounded-lg"
               />

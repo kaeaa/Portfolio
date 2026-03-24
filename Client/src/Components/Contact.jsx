@@ -13,7 +13,7 @@ function Contact({ setIsModalOpen }) {
   return (
     <div className="w-full flex justify-center items-center py-16 px-3.5 min-h-[60vh]">
       <motion.div
-        className="bg-[#264736] flex items-center flex-col rounded-[32px] text-center px-6 py-14 max-w-4xl w-full font-outfit relative overflow-hidden"
+        className="bg-[#3d2d5c] flex items-center flex-col rounded-[32px] text-center px-6 py-14 max-w-4xl w-full font-outfit relative overflow-hidden"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
@@ -78,7 +78,7 @@ function Contact({ setIsModalOpen }) {
         >
           <motion.button
             onClick={() => setIsModalOpen(true)}
-            className="flex flex-row gap-2 px-8 py-3 rounded-lg  cursor-pointer bg-white/10 text-[#E0E0E0] font-outfit font-medium  hover:bg-[#247a4a] transition-colors duration-300"
+            className="flex flex-row gap-2 px-8 py-3 rounded-lg  cursor-pointer bg-white/10 text-[#E0E0E0] font-outfit font-medium  hover:bg-purple-700 transition-colors duration-300"
             whileHover={{
               scale: 1.05,
               boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.3)",

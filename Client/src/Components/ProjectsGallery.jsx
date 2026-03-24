@@ -2,23 +2,26 @@
 
 import { useParams } from "react-router-dom";
 import { InfiniteMovingCards } from "./UI/MovingCards";
+import sibolImg from "../assets/sibol.png";
+import learnquake from "../assets/learnquake.png";
+import myxculture from "../assets/myxculture.png";
 
 const projects = [
   {
     slug: "sibol",
-    src: "https://res.cloudinary.com/dydmptpcg/image/upload/v1768955091/Screenshot_2026-01-21_011811_ftbytq.png",
+    src: sibolImg,
     alt: "sibol",
     link: "/projects2/SIBOL",
   },
   {
     slug: "learnquake",
-    src: "https://res.cloudinary.com/dydmptpcg/image/upload/v1770849340/Screenshot_2026-02-11_233226_m7wjmg.png",
+    src: learnquake,
     alt: "LAGOS-learnquake",
     link: "/projects2/LearnQuake",
   },
   {
     slug: "myxculture",
-    src: "https://res.cloudinary.com/dydmptpcg/image/upload/v1763632234/Screenshot_2025-11-20_104944_uxotyh.png",
+    src: myxculture,
     alt: "myxculture",
     link: "/projects2/MyxCulture",
   },

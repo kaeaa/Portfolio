@@ -22,7 +22,7 @@ const TechCarousel = () => {
             const Icon = logo.Icon;
             return (
               <div key={index} className="flex-shrink-0">
-                <div className="w-10 h-10 bg-gradient-to-br from-[#2E8B57]  to-neutral-800 rounded-lg p-2 flex items-center justify-center">
+                <div className="w-10 h-10 bg-gradient-to-br from-purple-600  to-neutral-800 rounded-lg p-2 flex items-center justify-center">
                   <Icon className="w-full h-full text-gray-200" />
                 </div>
               </div>

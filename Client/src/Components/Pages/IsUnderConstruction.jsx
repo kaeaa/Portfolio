@@ -42,7 +42,7 @@ const IsUnderonstruction = () => {
           className="text-[200px] font-bold tracking-tight sm:text-[350px] md:text-[400px] lg:text-[410px] text-center select-none pointer-events-none"
           style={{
             color: "black",
-            background: "linear-gradient(180deg, #2E8B57 30%, black 90%)",
+            background: "linear-gradient(180deg, #9333ea 30%, black 90%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             display: "inline-block",
@@ -64,7 +64,7 @@ const IsUnderonstruction = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
             style={{
-              background: "linear-gradient(180deg, black 20%,  #2E8B57 80%)",
+              background: "linear-gradient(180deg, black 20%,  #9333ea 80%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               display: "inline-block",

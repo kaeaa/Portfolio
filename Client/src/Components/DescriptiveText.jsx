@@ -3,7 +3,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 
 const DescriptiveText = () => {
   const items = [
-    { number: "1+", text: "Years Of Experience" },
+    { number: "4", text: "Years Of Experience" },
     { number: "3+", text: "Projects Delivered" },
     { number: "100%", text: "Clients Satisfaction" },
   ];
@@ -62,7 +62,7 @@ const DescriptiveText = () => {
               animate={controls}
               custom={index}
               className={`inline-block mr-[0.3em] ${
-                word.includes("1+") || word.includes("years")
+                word.includes("4") || word.includes("years")
                   ? "text-brand-text"
                   : ""
               }`}

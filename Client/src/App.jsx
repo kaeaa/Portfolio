@@ -12,6 +12,8 @@ import ProjectDetail from "./Components/Pages/ProjectDetail";
 import Blog from "./Components/Pages/Blog";
 import TopPage from "./Routes/TopPage";
 import ContactModal from "./Components/Pages/ContactModal";
+import Work from "./Components/Work";
+import Projects from "./Components/Projects";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -68,6 +70,9 @@ function App() {
           <Route path="/projects2/:slug" element={<ProjectDetail />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/projects" element={<Projects />} />
+
         </Routes>
         <Footer />
 

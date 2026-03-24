@@ -25,11 +25,11 @@ const Navbar = ({ setIsModalOpen }) => {
     },
     {
       name: "Experience",
-      link: "#qualifications",
+      link: "/work",
     },
     {
       name: "Projects",
-      link: "#projects",
+      link: "/projects",
     },
   ];
 
@@ -57,7 +57,7 @@ const Navbar = ({ setIsModalOpen }) => {
         to={"/"}
         className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal"
       >
-        <span className="font-medium font-outfit text-[#2E8B57] text-lg md:text-xl">
+        <span className="font-medium font-outfit text-purple-600 text-lg md:text-xl">
           K<span className="text-white">A</span>
         </span>
       </Link>

@@ -92,7 +92,7 @@ const Projects = () => {
           Here's What I've Been Innovating
         </h1>
         {/* <p className='text-base md:text-lg text-gray-600 text-center'>
-            Check out some of Judah<span className="text-[#2E8B57] font-semibold">4Good</span> projects.
+            Check out some of Judah<span className="text-purple-600 font-semibold">4Good</span> projects.
           </p> */}
       </motion.div>
 
